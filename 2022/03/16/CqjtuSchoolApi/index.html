@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="hider">
+    
+    <title>
+        
+            CqjtuSchoolApi |
+        
+        Hider&#39;s home
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/images/logo.svg">
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"en"}
+    KEEP.theme_config = {"toc":{"enable":false,"number":false,"expand_all":false,"init_open":false},"style":{"primary_color":"#0066cc","logo":"/images/logo.svg","favicon":"/images/logo.svg","avatar":"/images/avatar.svg","font_size":null,"font_family":null,"hover":{"shadow":false,"scale":false},"first_screen":{"enable":true,"header_transparent":false,"background_img":"/images/bg.svg","description":"Keep writing and Keep loving.","font_color":null,"hitokoto":false},"scroll":{"progress_bar":false,"percent":true}},"local_search":{"enable":true,"preload":true},"code_copy":{},"code_block":{"tools":{"enable":false,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":true},"comment":{"enable":true,"use":"valine","valine":{"appid":"AvflWxMrGjwe7BNa6OUGXHoX-gzGzoHsz","appkey":"IC2gTItOUkPhmSCTS6BBX52z","server_urls":null,"placeholder":"😜 尽情吐槽吧~"},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"author_label":{"enable":true,"auto":true,"custom_label_list":["Trainee","Engineer","Architect"]},"word_count":{"enable":false,"wordcount":false,"min2read":false},"img_align":"left","copyright_info":false},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
+    KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original article title","author":"Original article author","link":"Original article link"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.svg">
+                </a>
+            
+            <a class="logo-title" href="/">
+               Hider&#39;s home
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                主页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于我
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">主页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于我</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">CqjtuSchoolApi</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/avatar.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">hider</span>
+                            
+                                <span class="author-label">Lv2</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2022-03-16 10:07:02</span>
+        <span class="mobile">2022-03-16 10:07</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2022-03-16 10:13:04</span>
+    </span>
+    
+    
+    
+
+    
+    
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <h3 id="Api"><a href="#Api" class="headerlink" title="Api"></a>Api</h3><h4 id="教务网登录"><a href="#教务网登录" class="headerlink" title="教务网登录"></a>教务网登录</h4><p><a class="link"   target="_blank" rel="noopener" href="http://jwgl.cqjtu.edu.cn/app.do?method=authUser&xh=xxxx&pwd=xxxxx" >http://jwgl.cqjtu.edu.cn:80/app.do?method=authUser&amp;xh=xxxx&amp;pwd=xxxxx<i class="fas fa-external-link-alt"></i></a></p>
+<ol>
+<li>参数</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">xh  //教务网账号 学号</span><br><span class="line">pwd //教务网密码</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>返回值(Json)</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">error:</span><br><span class="line">&#123;</span><br><span class="line">&quot;flag&quot;:&quot;0&quot;,</span><br><span class="line">&quot;userrealname&quot;:null,</span><br><span class="line">&quot;token&quot;:&quot;-1&quot;,</span><br><span class="line">&quot;userdwmc&quot;:null,</span><br><span class="line">&quot;usertype&quot;:null,</span><br><span class="line">&quot;msg&quot;:&quot;账号或密码错误&quot;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">success:</span><br><span class="line">&#123;</span><br><span class="line">&#123;&quot;flag&quot;:&quot;1&quot;,</span><br><span class="line">&quot;userrealname&quot;:&quot;xxx&quot;,</span><br><span class="line">&quot;token&quot;:&quot;xxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;,</span><br><span class="line">&quot;userdwmc&quot;:&quot;交通运输学院&quot;,</span><br><span class="line">&quot;usertype&quot;:&quot;2&quot;,</span><br><span class="line">&quot;msg&quot;:&quot;登录成功&quot;&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="查询课表"><a href="#查询课表" class="headerlink" title="查询课表"></a>查询课表</h4><p>‘<a class="link"   target="_blank" rel="noopener" href="http://jwgl.cqjtu.edu.cn/app.do?method=getKbcx&xh=xxxx&xnxqid=xxxxx&zc=x" >http://jwgl.cqjtu.edu.cn:80/app.do?method=getKbcx&amp;xh=xxxx&amp;xnxqid=xxxxx&amp;zc=x<i class="fas fa-external-link-alt"></i></a></p>
+<ol>
+<li>参数</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">xh：  //学号</span><br><span class="line">xnxqid： //学年学期 例：2020-2021-2</span><br><span class="line">zc  //周次  例：1 2 3 4 5</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>返回值(Json)</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">error:</span><br><span class="line">&#123;</span><br><span class="line">&quot;token&quot;:&quot;-1&quot;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">success:</span><br><span class="line">[</span><br><span class="line">&#123;&quot;jsxm&quot;:&quot;张惠玲&quot;,&quot;jsmc&quot;:&quot;20305&quot;,&quot;jssj&quot;:&quot;10:00&quot;,&quot;kssj&quot;:&quot;08:20&quot;,&quot;kkzc&quot;:&quot;1-8&quot;,&quot;kcsj&quot;:&quot;10102&quot;,&quot;kcmc&quot;:&quot;交通信息检测及处理技术&quot;,&quot;sjbz&quot;:&quot;0&quot;&#125;,</span><br><span class="line">&#123;&quot;jsxm&quot;:&quot;邓天民&quot;,&quot;jsmc&quot;:&quot;30203&quot;,&quot;jssj&quot;:&quot;15:40&quot;,&quot;kssj&quot;:&quot;14:00&quot;,&quot;kkzc&quot;:&quot;1-8&quot;,&quot;kcsj&quot;:&quot;10506&quot;,&quot;kcmc&quot;:&quot;嵌入式系统基础B&quot;,&quot;sjbz&quot;:&quot;0&quot;&#125;,</span><br><span class="line">&#123;&quot;jsxm&quot;:&quot;杨林&quot;,&quot;jsmc&quot;:&quot;20410&quot;,&quot;jssj&quot;:&quot;15:40&quot;,&quot;kssj&quot;:&quot;14:00&quot;,&quot;kkzc&quot;:&quot;1-8&quot;,&quot;kcsj&quot;:&quot;20506&quot;,&quot;kcmc&quot;:&quot;交通供配电与照明&quot;,&quot;sjbz&quot;:&quot;0&quot;&#125;,</span><br><span class="line">&#123;&quot;jsxm&quot;:&quot;张惠玲&quot;,&quot;jsmc&quot;:&quot;20305&quot;,&quot;jssj&quot;:&quot;12:00&quot;,&quot;kssj&quot;:&quot;10:20&quot;,&quot;kkzc&quot;:&quot;1-8&quot;,&quot;kcsj&quot;:&quot;30304&quot;,&quot;kcmc&quot;:&quot;交通信息检测及处理技术&quot;,&quot;sjbz&quot;:&quot;0&quot;&#125;,</span><br><span class="line">&#123;&quot;jsxm&quot;:&quot;邓天民&quot;,&quot;jsmc&quot;:&quot;20210&quot;,&quot;jssj&quot;:&quot;17:40&quot;,&quot;kssj&quot;:&quot;16:00&quot;,&quot;kkzc&quot;:&quot;1-3,5-8&quot;,&quot;kcsj&quot;:&quot;30708&quot;,&quot;kcmc&quot;:&quot;嵌入式系统基础B&quot;,&quot;sjbz&quot;:&quot;0&quot;&#125;,</span><br><span class="line">&#123;&quot;jsxm&quot;:&quot;杨林&quot;,&quot;jsmc&quot;:&quot;20410&quot;,&quot;jssj&quot;:&quot;12:00&quot;,&quot;kssj&quot;:&quot;10:20&quot;,&quot;kkzc&quot;:&quot;1-8&quot;,&quot;kcsj&quot;:&quot;40304&quot;,&quot;kcmc&quot;:&quot;交通供配电与照明&quot;,&quot;sjbz&quot;:&quot;0&quot;&#125;</span><br><span class="line">]</span><br><span class="line"></span><br><span class="line">err-args:</span><br><span class="line">[]</span><br></pre></td></tr></table></figure>
+
+<h4 id="查询成绩"><a href="#查询成绩" class="headerlink" title="查询成绩"></a>查询成绩</h4><p>‘<a class="link"   target="_blank" rel="noopener" href="http://jwgl.cqjtu.edu.cn/app.do?method=getCjcx&xh=xxxxxx&xnxqid=xxxxxxxxx" >http://jwgl.cqjtu.edu.cn:80/app.do?method=getCjcx&amp;xh=xxxxxx&amp;xnxqid=xxxxxxxxx<i class="fas fa-external-link-alt"></i></a></p>
+<ol>
+<li>参数</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">xh：  //学号</span><br><span class="line">xnxqid： //学年学期 例：2020-2021-2</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>返回值(Json)</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">error:</span><br><span class="line">&#123;</span><br><span class="line">&quot;token&quot;:&quot;-1&quot;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">success:</span><br><span class="line">[</span><br><span class="line">&#123;&quot;bz&quot;:null,&quot;cjbsmc&quot;:null,&quot;kclbmc&quot;:&quot;选修&quot;,&quot;zcj&quot;:&quot;94&quot;,&quot;xm&quot;:&quot;xxx&quot;,&quot;xqmc&quot;:&quot;2020-2021-2&quot;,&quot;kcxzmc&quot;:&quot;专业教育课程&quot;,&quot;kcywmc&quot;:null,&quot;ksxzmc&quot;:&quot;正常考试&quot;,&quot;kcmc&quot;:&quot;轨道交通运营与维护&quot;,&quot;xf&quot;:2.5&#125;,</span><br><span class="line">&#123;&quot;bz&quot;:null,&quot;cjbsmc&quot;:null,&quot;kclbmc&quot;:&quot;必修&quot;,&quot;zcj&quot;:&quot;78&quot;,&quot;xm&quot;:&quot;xxx&quot;,&quot;xqmc&quot;:&quot;2020-2021-2&quot;,&quot;kcxzmc&quot;:&quot;专业教育课程&quot;,&quot;kcywmc&quot;:null,&quot;ksxzmc&quot;:&quot;正常考试&quot;,&quot;kcmc&quot;:&quot;交通工程设施课程设计&quot;,&quot;xf&quot;:2&#125;,</span><br><span class="line">&#123;&quot;bz&quot;:null,&quot;cjbsmc&quot;:null,&quot;kclbmc&quot;:&quot;必修&quot;,&quot;zcj&quot;:&quot;82&quot;,&quot;xm&quot;:&quot;xxx&quot;,&quot;xqmc&quot;:&quot;2020-2021-2&quot;,&quot;kcxzmc&quot;:&quot;专业教育课程&quot;,&quot;kcywmc&quot;:null,&quot;ksxzmc&quot;:&quot;正常考试&quot;,&quot;kcmc&quot;:&quot;交通供配电与照明&quot;,&quot;xf&quot;:2&#125;,</span><br><span class="line">&#123;&quot;bz&quot;:null,&quot;cjbsmc&quot;:null,&quot;kclbmc&quot;:&quot;选修&quot;,&quot;zcj&quot;:&quot;93&quot;,&quot;xm&quot;:&quot;xxx&quot;,&quot;xqmc&quot;:&quot;2020-2021-2&quot;,&quot;kcxzmc&quot;:&quot;专业教育课程&quot;,&quot;kcywmc&quot;:null,&quot;ksxzmc&quot;:&quot;正常考试&quot;,&quot;kcmc&quot;:&quot;交通规划原理B&quot;,&quot;xf&quot;:3&#125;,</span><br><span class="line">&#123;&quot;bz&quot;:null,&quot;cjbsmc&quot;:null,&quot;kclbmc&quot;:&quot;必修&quot;,&quot;zcj&quot;:&quot;77&quot;,&quot;xm&quot;:&quot;xxx&quot;,&quot;xqmc&quot;:&quot;2020-2021-2&quot;,&quot;kcxzmc&quot;:&quot;专业教育课程&quot;,&quot;kcywmc&quot;:null,&quot;ksxzmc&quot;:&quot;正常考试&quot;,&quot;kcmc&quot;:&quot;交通机电系统&quot;,&quot;xf&quot;:2&#125;,</span><br><span class="line">&#123;&quot;bz&quot;:null,&quot;cjbsmc&quot;:null,&quot;kclbmc&quot;:&quot;必修&quot;,&quot;zcj&quot;:&quot;80&quot;,&quot;xm&quot;:&quot;xxx&quot;,&quot;xqmc&quot;:&quot;2020-2021-2&quot;,&quot;kcxzmc&quot;:&quot;专业教育课程&quot;,&quot;kcywmc&quot;:null,&quot;ksxzmc&quot;:&quot;正常考试&quot;,&quot;kcmc&quot;:&quot;交通数据分析与处理综合实践&quot;,&quot;xf&quot;:1&#125;,</span><br><span class="line">]</span><br><span class="line"></span><br><span class="line">err-args:</span><br><span class="line">[]</span><br></pre></td></tr></table></figure>
+
+<h4 id="查询考试安排"><a href="#查询考试安排" class="headerlink" title="查询考试安排"></a>查询考试安排</h4><p><a class="link"   target="_blank" rel="noopener" href="http://jwgl.cqjtu.edu.cn/app.do?method=getKscx&xh=xxxxxxxx" >http://jwgl.cqjtu.edu.cn:80/app.do?method=getKscx&amp;xh=xxxxxxxx<i class="fas fa-external-link-alt"></i></a></p>
+<ol>
+<li>参数</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xh： //学号</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>返回值(Json)</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">error:</span><br><span class="line">&#123;</span><br><span class="line">&quot;token&quot;:&quot;-1&quot;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">success:</span><br><span class="line">[</span><br><span class="line">&#123;&quot;bz&quot;:null,&quot;cjbsmc&quot;:null,&quot;kclbmc&quot;:&quot;选修&quot;,&quot;zcj&quot;:&quot;94&quot;,&quot;xm&quot;:&quot;xxx&quot;,&quot;xqmc&quot;:&quot;2020-2021-2&quot;,&quot;kcxzmc&quot;:&quot;专业教育课程&quot;,&quot;kcywmc&quot;:null,&quot;ksxzmc&quot;:&quot;正常考试&quot;,&quot;kcmc&quot;:&quot;轨道交通运营与维护&quot;,&quot;xf&quot;:2.5&#125;,</span><br><span class="line">&#123;&quot;bz&quot;:null,&quot;cjbsmc&quot;:null,&quot;kclbmc&quot;:&quot;必修&quot;,&quot;zcj&quot;:&quot;78&quot;,&quot;xm&quot;:&quot;xxx&quot;,&quot;xqmc&quot;:&quot;2020-2021-2&quot;,&quot;kcxzmc&quot;:&quot;专业教育课程&quot;,&quot;kcywmc&quot;:null,&quot;ksxzmc&quot;:&quot;正常考试&quot;,&quot;kcmc&quot;:&quot;交通工程设施课程设计&quot;,&quot;xf&quot;:2&#125;,</span><br><span class="line">&#123;&quot;bz&quot;:null,&quot;cjbsmc&quot;:null,&quot;kclbmc&quot;:&quot;必修&quot;,&quot;zcj&quot;:&quot;82&quot;,&quot;xm&quot;:&quot;xxx&quot;,&quot;xqmc&quot;:&quot;2020-2021-2&quot;,&quot;kcxzmc&quot;:&quot;专业教育课程&quot;,&quot;kcywmc&quot;:null,&quot;ksxzmc&quot;:&quot;正常考试&quot;,&quot;kcmc&quot;:&quot;交通供配电与照明&quot;,&quot;xf&quot;:2&#125;,</span><br><span class="line">&#123;&quot;bz&quot;:null,&quot;cjbsmc&quot;:null,&quot;kclbmc&quot;:&quot;选修&quot;,&quot;zcj&quot;:&quot;93&quot;,&quot;xm&quot;:&quot;xxx&quot;,&quot;xqmc&quot;:&quot;2020-2021-2&quot;,&quot;kcxzmc&quot;:&quot;专业教育课程&quot;,&quot;kcywmc&quot;:null,&quot;ksxzmc&quot;:&quot;正常考试&quot;,&quot;kcmc&quot;:&quot;交通规划原理B&quot;,&quot;xf&quot;:3&#125;,</span><br><span class="line">&#123;&quot;bz&quot;:null,&quot;cjbsmc&quot;:null,&quot;kclbmc&quot;:&quot;必修&quot;,&quot;zcj&quot;:&quot;77&quot;,&quot;xm&quot;:&quot;xxx&quot;,&quot;xqmc&quot;:&quot;2020-2021-2&quot;,&quot;kcxzmc&quot;:&quot;专业教育课程&quot;,&quot;kcywmc&quot;:null,&quot;ksxzmc&quot;:&quot;正常考试&quot;,&quot;kcmc&quot;:&quot;交通机电系统&quot;,&quot;xf&quot;:2&#125;,</span><br><span class="line">&#123;&quot;bz&quot;:null,&quot;cjbsmc&quot;:null,&quot;kclbmc&quot;:&quot;必修&quot;,&quot;zcj&quot;:&quot;80&quot;,&quot;xm&quot;:&quot;xxx&quot;,&quot;xqmc&quot;:&quot;2020-2021-2&quot;,&quot;kcxzmc&quot;:&quot;专业教育课程&quot;,&quot;kcywmc&quot;:null,&quot;ksxzmc&quot;:&quot;正常考试&quot;,&quot;kcmc&quot;:&quot;交通数据分析与处理综合实践&quot;,&quot;xf&quot;:1&#125;,</span><br><span class="line">]</span><br><span class="line"></span><br><span class="line">err-args:</span><br><span class="line">[]</span><br></pre></td></tr></table></figure>
+
+<h4 id="查询学号信息"><a href="#查询学号信息" class="headerlink" title="查询学号信息"></a>查询学号信息</h4><p><a class="link"   target="_blank" rel="noopener" href="http://jwgl.cqjtu.edu.cn/app.do?method=getUserInfo&xh=xxxxxx" >http://jwgl.cqjtu.edu.cn:80/app.do?method=getUserInfo&amp;xh=xxxxxx<i class="fas fa-external-link-alt"></i></a></p>
+<ol>
+<li>参数</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xh： //学号</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>返回值(Json)</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">error:</span><br><span class="line">&#123;</span><br><span class="line">&quot;token&quot;:&quot;-1&quot;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">success:</span><br><span class="line">&#123;</span><br><span class="line">&quot;fxzy&quot;:&quot;无&quot;,</span><br><span class="line">&quot;xh&quot;:&quot;63180309XXXX&quot;,</span><br><span class="line">&quot;xm&quot;:&quot;xxx&quot;,</span><br><span class="line">&quot;dqszj&quot;:&quot;2018&quot;,</span><br><span class="line">&quot;usertype&quot;:&quot;2&quot;,</span><br><span class="line">&quot;yxmc&quot;:&quot;交通运输学院&quot;,</span><br><span class="line">&quot;xz&quot;:4,</span><br><span class="line">&quot;bj&quot;:&quot;XXX1801班&quot;,</span><br><span class="line">&quot;dh&quot;:null,</span><br><span class="line">&quot;email&quot;:null,</span><br><span class="line">&quot;rxnf&quot;:&quot;2018&quot;,</span><br><span class="line">&quot;xb&quot;:&quot;男&quot;,</span><br><span class="line">&quot;ksh&quot;:&quot;xxxxxxx&quot;,</span><br><span class="line">&quot;nj&quot;:&quot;2018&quot;,</span><br><span class="line">&quot;qq&quot;:null,</span><br><span class="line">&quot;zymc&quot;:&quot;交通设备与控制工程&quot;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">err-args:</span><br><span class="line">&#123;&#125;</span><br></pre></td></tr></table></figure>
+            </div>
+
+            
+
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2023/04/23/java%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">java日期格式</span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2021/08/25/JDBC%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">JDBC基础教程</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+                <div class="comment-container">
+                    
+<div class="comments-container">
+    <div id="comments-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fas fa-comments"></i>&nbsp;Comments
+    </div>
+    
+        
+            
+
+    <div class="valine-container">
+        <script  src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
+        <div id="vcomments"></div>
+        <script >
+          function loadValine() {
+
+            const config = {
+              el: '#vcomments',
+              appId: 'AvflWxMrGjwe7BNa6OUGXHoX-gzGzoHsz',
+              appKey: 'IC2gTItOUkPhmSCTS6BBX52z',
+              meta: ['nick', 'mail', 'link'],
+              avatar: 'wavatar',
+              enableQQ: true,
+              placeholder: '😜 尽情吐槽吧~',
+              lang: 'en'.toLowerCase()
+            }
+
+            if ('') {
+              config.serverURLs = ''
+            }
+
+            new Valine(config)
+
+            function getAuthor(language) {
+              switch (language) {
+                case 'en':
+                  return 'Author'
+                case 'zh-CN':
+                  return '博主'
+                default:
+                  return 'Master'
+              }
+            }
+
+            // Add "Author" identify
+            const getValineDomTimer = setInterval(() => {
+              const vcards = document.querySelectorAll('#vcomments .vcards .vcard')
+              if (vcards.length > 0) {
+                let author = 'hider'
+
+                if (author) {
+                  for (let vcard of vcards) {
+                    const vnick_dom = vcard.querySelector('.vhead .vnick')
+                    const vnick = vnick_dom.innerHTML
+                    if (vnick === author) {
+                      vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
+                    }
+                  }
+                }
+                clearInterval(getValineDomTimer)
+              } else {
+                clearInterval(getValineDomTimer)
+              }
+            }, 2000)
+          }
+
+          if ('false' === 'true') {
+            const loadValineTimeout = setTimeout(() => {
+              loadValine()
+              clearTimeout(loadValineTimeout)
+            }, 1000)
+          } else {
+            window.addEventListener('DOMContentLoaded', loadValine)
+          }
+        </script>
+    </div>
+
+
+
+        
+    
+</div>
+
+                </div>
+            
+        </div>
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2020</span> -
+            
+            2023
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">hider</a>
+            
+        </div>
+        
+        <div class="theme-info info-item">
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+
+        <!-- go comment -->
+        
+            <li class="tools-item flex-center go-to-comments">
+                <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+            
+<script src="/js/libs/anime.min.js"></script>
+
+        
+        
+    
+</div>
+
+
+
+</body>
+</html>
